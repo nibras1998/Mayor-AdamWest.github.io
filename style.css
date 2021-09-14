@@ -1,40 +1,29 @@
 body {
   background: linear-gradient(268deg, #12c2e9, #c471ed, #f64f59);
   background-size: 600% 600%;
-
-  -webkit-animation: CoolGradient 25s ease infinite;
-  -moz-animation: CoolGradient 25s ease infinite;
-  animation: CoolGradient 25s ease infinite;
+  animation: gradient 25s ease infinite;
+  height: 100%;
 }
 
-@-webkit-keyframes CoolGradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 51%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.heading {
+  padding: 20%;
+  margin: auto;
+  text-align: center;
 }
-@-moz-keyframes CoolGradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 51%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+
+.display-4 {
+  color: whitesmoke;
+  font-weight: 900px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-stretch: ultra-expanded;
 }
-@keyframes CoolGradient {
+
+@keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 51%;
+    background-position: 100% 50%;
   }
   100% {
     background-position: 0% 50%;
