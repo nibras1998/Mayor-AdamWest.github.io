@@ -1,0 +1,42 @@
+.body {
+  background: linear-gradient(268deg, #12c2e9, #c471ed, #f64f59);
+  background-size: 600% 600%;
+
+  -webkit-animation: CoolGradient 25s ease infinite;
+  -moz-animation: CoolGradient 25s ease infinite;
+  animation: CoolGradient 25s ease infinite;
+}
+
+@-webkit-keyframes CoolGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes CoolGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes CoolGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
