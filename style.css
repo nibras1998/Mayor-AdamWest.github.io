@@ -8,7 +8,6 @@ body {
 .heading {
   padding: 20%;
   margin: auto;
-
 }
 
 .centered {
@@ -35,7 +34,7 @@ body {
   animation: osc-l 2.5s ease infinite;
 }
 .blob-2 {
-  left: 80%;
+  left: 50%;
   animation: osc-r 2.5s ease infinite;
   background: whitesmoke;
 }
@@ -44,7 +43,7 @@ body {
     left: 10%;
   }
   50% {
-    left: 50%;
+    left: 60%;
   }
   100% {
     left: 10%;
@@ -55,7 +54,7 @@ body {
     left: 80%;
   }
   50% {
-    left: 50%;
+    left: 60%;
   }
   100% {
     left: 80%;
