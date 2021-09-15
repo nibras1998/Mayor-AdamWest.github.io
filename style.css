@@ -8,17 +8,14 @@ body {
 .heading {
   padding: 20%;
   margin: auto;
-  text-align: center;
-  color: aliceblue;
-  font-family: Brush Script MT, Brush Script Std, cursive;
-  font-stretch: ultra-expanded;
+
 }
 
 .centered {
   width: 400px;
   height: 400px;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -44,13 +41,13 @@ body {
 }
 @keyframes osc-l {
   0% {
-    left: 20%;
+    left: 10%;
   }
   50% {
-    left: 80%;
+    left: 50%;
   }
   100% {
-    left: 20%;
+    left: 10%;
   }
 }
 @keyframes osc-r {
@@ -58,7 +55,7 @@ body {
     left: 80%;
   }
   50% {
-    left: 20%;
+    left: 50%;
   }
   100% {
     left: 80%;
